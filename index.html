@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Cars</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="search-bar">
+            <form>
+                <div class="trip-options">
+                    <label>
+                        <input type="radio" name="trip" checked> Round Trip
+                    </label>
+                    <label>
+                        <input type="radio" name="trip"> One Way
+                    </label>
+                    <label>
+                        <input type="radio" name="trip"> Multi-City
+                    </label>
+                    <label>
+                        <select>
+                            <option value="coach">Coach</option>
+                            <option value="business">Business</option>
+                            <option value="first">First Class</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="search-fields">
+                    <input type="text" placeholder="MIA - Miami, Florida, United States">
+                    <input type="text" placeholder="To where?">
+                    <input type="date" placeholder="Depart Date">
+                    <input type="date" placeholder="Return Date">
+                    <input type="number" placeholder="1 Traveler">
+                    <button type="submit" class="searchBtn">Search Flights</button>
+                </div>
+            </form>
+        </section>
+    
+        <section class="deals">
+            <h2>Found these low fare deals for your next trip</h2>
+            <div class="deals-grid">
+                <div class="deal-card">
+                    <img src="./assets/Explore The Past and Future of Singapore Tour.jpg" alt="Singapore">
+                    <h3>Singapore</h3>
+                    <p>Round Trip</p>
+                    <p>Starting from <strong>$240</strong></p>
+                    <button>Book Now</button>
+                </div>
+                <div class="deal-card">
+                    <img src="./assets/images (1).jpeg" alt="Toronto">
+                    <h3>Toronto</h3>
+                    <p>Round Trip</p>
+                    <p>Starting from <strong>$816</strong></p>
+                    <button>Book Now</button>
+                </div>
+                <div class="deal-card">
+                    <img src="./assets/SightSeeingOLewcq.jpg" alt="San Francisco">
+                    <h3>San Francisco</h3>
+                    <p>Round Trip</p>
+                    <p>Starting from <strong>$820</strong></p>
+                    <button>Book Now</button>
+                </div>
+                <!-- Add more deal cards as needed -->
+            </div>
+        </section>
+    
+        <section class="offer">
+            <h2>Sign Up and Save</h2>
+            <p>Sign up and save up to $15 off our fees on selected regions with a promo code!</p>
+            <form>
+                <input type="email" placeholder="Enter email address">
+                <button type="submit">Get Promo Code!</button>
+            </form>
+        </section>
+    
+        <section class="features">
+            <h2>Here's why travelers choose OneTravel</h2>
+            <ul>
+                <li>Get Great Deals!</li>
+                <li>Price Match Promise</li>
+                <li>Easy Cancellations</li>
+                <li>Expert Guidance</li>
+            </ul>
+        </section>
+    
+        <section class="additional-deals">
+            <h2>Don't Miss These One Way/Round Trip Fares</h2>
+            <div class="deals-grid">
+                <div class="deal-card">
+                    <img src="./assets/main-qimg-7c778cd5487ef2537a5f7d54f376c13b-lq.jpeg" alt="Las Vegas">
+                    <h3>Las Vegas ➔ Los Angeles</h3>
+                    <p>One Way Trip</p>
+                    <p>Starting from <strong>$58.97</strong></p>
+                    <button>Book Now</button>
+                </div>
+                <div class="deal-card">
+                    <img src="./assets/SightSeeingOLewcq.jpg" alt="Orlando">
+                    <h3>Orlando ➔ San Juan</h3>
+                    <p>One Way Trip</p>
+                    <p>Starting from <strong>$63.99</strong></p>
+                    <button>Book Now</button>
+                </div>
+                <div class="deal-card">
+                    <img src="./assets/rsz_singapore_night_flickr1.webp" alt="New York City">
+                    <h3>New York City ➔ Los Angeles</h3>
+                    <p>One Way Trip</p>
+                    <p>Starting from <strong>$76.99</strong></p>
+                    <button>Book Now</button>
+                </div>
+                <!-- Add more deal cards as needed -->
+            </div>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 Travel Booking. All rights reserved.</p>
+        </footer>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,198 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --font-family: 'Arial, sans-serif';
+}
+
+/* Basic styling */
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    color: var(--secondary-color);
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -2rem;
+}
+
+.trip-options, .search-fields {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem
+}
+
+.trip-options label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-fields input,
+.search-fields select,
+.search-fields button {
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    flex-grow: 1;
+}
+
+.search-fields button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex-grow: 0;
+}
+.searchBtn{
+    background-color: orange;
+}
+
+.deals {
+    padding: 2rem;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.deal-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.deal-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.deal-card h3 {
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.deal-card p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.deal-card button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deal-card button:hover {
+    background-color: #0056b3;
+}
+
+.offer {
+    padding: 2rem;
+    background-color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.offer p {
+    margin: 1rem 0;
+    color: #333;
+}
+
+.offer form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.offer input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.offer button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.features {
+    padding: 2rem;
+    background-color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features ul li {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.additional-deals {
+    padding: 2rem;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+footer {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
